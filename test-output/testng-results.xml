@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31335" started-at="2021-02-16T22:22:21 IST" finished-at="2021-02-16T22:22:52 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31335" started-at="2021-02-16T22:22:21 IST" finished-at="2021-02-16T22:22:52 IST">
+      <class name="com.freecrm.tests.CompanyTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.freecrm.tests.CompanyTest@63440df3]" name="openApp" is-config="true" duration-ms="11104" started-at="2021-02-16T22:22:22 IST" finished-at="2021-02-16T22:22:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="tc1(java.util.HashMap)[pri:0, instance:com.freecrm.tests.CompanyTest@63440df3]" name="tc1" duration-ms="17895" started-at="2021-02-16T22:22:33 IST" data-provider="getTc1Data" finished-at="2021-02-16T22:22:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Zip=500035, CompanyName=GASR Co, State=Telangana, WebSite=www.gasr.in, Country=India, Runmode=N, City=Hyderabad, Addess=Road 15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.freecrm.tests.CompanyTest@63440df3]" name="closeApp" is-config="true" duration-ms="1006" started-at="2021-02-16T22:22:51 IST" finished-at="2021-02-16T22:22:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.freecrm.tests.CompanyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
